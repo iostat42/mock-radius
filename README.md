@@ -1,4 +1,4 @@
-# radius-js
+# mock-radius
 
 Radius server for testing purposes.
 
