@@ -1,0 +1,30 @@
+{
+  "name": "mock-radius",
+  "version": "0.0.1",
+  "description": "Mock RADIUS server for testing.",
+  "author": "iostat42 <iostat42@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c -L",
+    "test-cover": "./node_modules/lab/bin/lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "radius",
+    "server",
+    "authentication"
+  ],
+  "dependencies": {
+    "hoek": "^2.14.0",
+    "radius": "^1.1.0"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.9.0",
+    "radclient": "^1.0.0"
+  }
+}
