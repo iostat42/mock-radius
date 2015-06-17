@@ -1,4 +1,4 @@
-# mock-radius
+# mock-radius [![Build Status](https://travis-ci.org/iostat42/mock-radius.svg)](https://travis-ci.org/iostat42/mock-radius)
 
 Radius server for testing purposes.
 

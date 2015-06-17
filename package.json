@@ -2,8 +2,6 @@
   "name": "mock-radius",
   "version": "0.0.1",
   "description": "Mock RADIUS server for testing.",
-  "author": "iostat42 <iostat42@gmail.com>",
-  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "lab -c -L",
@@ -11,20 +9,26 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iostat42/mock-radius.git"
   },
   "keywords": [
     "radius",
     "server",
     "authentication"
   ],
-  "dependencies": {
-    "hoek": "^2.14.0",
-    "radius": "^1.1.0"
+  "author": "iostat42 <iostat42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iostat42/mock-radius/issues"
   },
+  "homepage": "https://github.com/iostat42/mock-radius",
   "devDependencies": {
-    "code": "^1.4.0",
-    "lab": "^5.9.0",
-    "radclient": "^1.0.0"
+    "code": "1.x.x",
+    "lab": "5.x.x",
+    "radclient": "1.x.x"
+  },
+  "dependencies": {
+    "hoek": "2.x.x",
+    "radius": "1.x.x"
   }
 }
