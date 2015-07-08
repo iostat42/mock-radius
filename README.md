@@ -1,4 +1,6 @@
-# mock-radius [![Build Status](https://travis-ci.org/iostat42/mock-radius.svg)](https://travis-ci.org/iostat42/mock-radius)
+# mock-radius 
+[![Build Status](https://travis-ci.org/iostat42/mock-radius.svg)](https://travis-ci.org/iostat42/mock-radius) 
+[![Codacy Badge](https://www.codacy.com/project/badge/51611b0fa2d14573b0bb40196e073d44)](https://www.codacy.com/app/iostat42/mock-radius)
 
 Radius server for testing purposes.
 

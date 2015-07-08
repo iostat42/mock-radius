@@ -2,7 +2,6 @@
 
 var Lab = require('lab');
 var Code = require('code');
-var Hoek = require('hoek');
 var MockRadius = require('../index');
 var Radclient = require('radclient');
 
@@ -16,9 +15,7 @@ var describe = lab.experiment;
 var it = lab.test;
 var expect = Code.expect;
 var before = lab.before;
-var beforeEach = lab.beforeEach;
 var after = lab.after;
-var afterEach = lab.afterEach;
 
 // Declare internals
 
